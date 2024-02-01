@@ -15,6 +15,12 @@ textarea {
 .description {
   white-space: pre-wrap;
 }
+/* added container fluid class formatting details to ensure black border was visible above time-blocks */ 
+.container-fluid.px-5 {
+  background-color: white;
+  padding: 0px; 
+  border-top: 10px solid black;
+}
 
 .time-block {
   border-radius: 15px;
